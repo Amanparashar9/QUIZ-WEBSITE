@@ -1,0 +1,298 @@
+/* NAVBAR CSS */
+
+#navbar {
+    display: flex;
+    height: 15vh;
+    width: 100vw;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.container-start img {
+    height: 15vh;
+    margin-left: 20px;
+}
+
+.container-mid ul {
+    display: flex;
+    list-style-type: none;
+    margin: 2rem;
+}
+
+.container-mid ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 12px;
+    padding: 20px;
+}
+
+.container-mid ul li a:hover {
+    background-image: linear-gradient(black, white);
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.container-last {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60vh;
+}
+
+
+/* BACKGROUND CSS */
+
+#background {
+    position: relative;
+}
+
+#background img {
+    height: 80vh;
+    width: 100vw;
+}
+
+.para h1 {
+    position: absolute;
+    left: 28%;
+    bottom: 40%;
+    font-size: 35px;
+}
+
+.para h2 {
+    position: absolute;
+    left: 18%;
+    bottom: 30%;
+    font-size: 20px;
+    color: white;
+}
+
+.para p {
+    position: absolute;
+    left: 22%;
+    bottom: 23%;
+    font-size: 20px;
+    color: white;
+}
+
+.para img {
+    width: 30vw;
+    position: absolute;
+    bottom: 45%;
+    left: 35%;
+}
+
+
+/* CARDS CSS */
+
+#cards {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.box {
+    margin: auto;
+    height: 30vw;
+    width: 40vw;
+}
+
+.box button {
+    border: 4px solid red;
+    border-radius: 20px;
+    font-family: 'Pacifico', cursive;
+    background-image: linear-gradient(black, white);
+}
+
+.box button a {
+    text-decoration: none;
+    color: black;
+}
+
+.box button:hover {
+    background-image: linear-gradient(blue, white);
+}
+
+#cards2 {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.box2 {
+    margin: auto;
+    height: 35vw;
+    width: 40vw;
+    /* background-color: #C0E6BA;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+}
+
+.box2 button {
+    border: 4px solid red;
+    border-radius: 20px;
+    font-family: 'Pacifico', cursive;
+    background-image: linear-gradient(black, white);
+}
+
+.box2 button a {
+    text-decoration: none;
+    color: black;
+}
+
+.box2 button:hover {
+    background-image: linear-gradient(blue, white);
+}
+
+.box img {
+    height: 15vw;
+    width: 30vw;
+    margin-left: 60px;
+    margin-top: 12px;
+    box-shadow: 20px 20px 50px grey;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.box img:hover {
+    transform: rotate(-180deg);
+    cursor: pointer;
+}
+
+.box h1 {
+    margin-left: 160px;
+}
+
+.box p {
+    margin-left: 12vw;
+}
+
+.box button {
+    margin-left: 14vw;
+    height: 5vw;
+    width: 10vw;
+    margin-top: 15px;
+}
+
+.box2 img {
+    height: 15vw;
+    width: 30vw;
+    margin-left: 60px;
+    margin-top: 12px;
+    box-shadow: 20px 20px 50px grey;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.box2 img:hover {
+    transform: rotate(-180deg);
+    cursor: pointer;
+}
+
+.box2 h1 {
+    margin-left: 110px;
+}
+
+.box2 p {
+    margin-left: 12vw;
+}
+
+.box2 button {
+    margin-left: 14vw;
+    height: 5vw;
+    width: 10vw;
+    margin-top: 15px;
+}
+
+
+/* FOOTER CSS */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.foot-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading h1 {
+    margin-left: 12px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 60px 175px;
+    padding: 10px;
+}
+
+.grid-item1 {
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.grid-item2 {
+    padding-left: 10vw;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.grid-item3 {
+    padding-left: 10vw;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.grid-item4 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.grid-item5 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    padding-left: 10vw;
+}
+
+.grid-item5 a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.grid-item5 a:hover {
+    background-image: linear-gradient(red, black, green, white);
+    border: 3px solid black;
+    border-radius: 12px;
+}
+
+.grid-item6 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    padding-left: 10vw;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10vw;
+}
+
+
+/* ICONS CSS */
+
+.icons {
+    font-size: 50px;
+    text-decoration: none;
+    padding-right: 40px;
+    margin-right: 12px;
+    filter: invert(100%);
+}
+
+.footer a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 12px;
+}

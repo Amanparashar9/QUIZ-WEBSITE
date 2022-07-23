@@ -1,0 +1,118 @@
+/* body background color */
+
+body {
+    background-image: linear-gradient(to right, #870000, #1897a0);
+}
+
+
+/* NAVBAR CSS */
+
+#navbar {
+    display: flex;
+    height: 15vh;
+    width: 100vw;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.container-start img {
+    height: 15vh;
+    margin-left: 20px;
+}
+
+.container-mid ul {
+    display: flex;
+    list-style-type: none;
+    margin: 2rem;
+}
+
+.container-mid ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 12px;
+    padding: 20px;
+}
+
+.container-mid ul li a:hover {
+    background-image: linear-gradient(black, white);
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.container-last {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60vh;
+}
+
+
+/* FORM CSS */
+
+.form {
+    height: 60vh;
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+}
+
+.form input {
+    width: 90vw;
+    height: 5vh;
+    margin-top: 30px;
+    border: 3px solid blue;
+    border-radius: 12px;
+    font-size: 20px;
+}
+
+
+/* BUTTON CSS */
+
+.btn-container input {
+    width: 12vw;
+    font-size: 25px;
+    height: 8vh;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-left: 80%;
+    background-image: linear-gradient(black, white);
+    margin-top: 25px;
+}
+
+.btn-container input:hover {
+    cursor: pointer;
+    background-image: linear-gradient(rgb(22, 141, 121), white);
+}
+
+
+/* CHECKBOX CSS */
+
+.permit {
+    margin-left: 66px;
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+
+.permit label {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+/* FOOTER CSS */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10vw;
+    background-color: #190a05;
+    color: aliceblue;
+    margin-top: 20vh;
+}
+
+.footer a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 12px;
+}

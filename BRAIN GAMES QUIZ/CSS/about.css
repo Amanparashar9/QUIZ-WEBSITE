@@ -1,0 +1,165 @@
+/* NAVBAR CSS */
+
+#navbar {
+    display: flex;
+    height: 15vh;
+    width: 100vw;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.container-start img {
+    height: 15vh;
+    margin-left: 20px;
+}
+
+.container-mid ul {
+    display: flex;
+    list-style-type: none;
+    margin: 2rem;
+}
+
+.container-mid ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 12px;
+    padding: 20px;
+}
+
+.container-mid ul li a:hover {
+    background-image: linear-gradient(black, white);
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.container-last {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60vh;
+}
+
+
+/* BACKGROUND CSS */
+
+.bg-img img {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logo img {
+    height: 70vh;
+    position: absolute;
+    bottom: 5vh;
+    left: 5vw;
+}
+
+.about {
+    position: absolute;
+    bottom: 10px;
+    margin-left: 45vw;
+    margin-right: 10vw;
+    color: wheat;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.para h1 {
+    position: absolute;
+    left: 45vw;
+    bottom: 25vw;
+}
+
+
+/* FOOTER CSS */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.foot-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading h1 {
+    margin-left: 12px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 60px 175px;
+    padding: 10px;
+}
+
+.grid-item1 {
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.grid-item2 {
+    padding-left: 10vw;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.grid-item3 {
+    padding-left: 10vw;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.grid-item4 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.grid-item5 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    padding-left: 10vw;
+}
+
+.grid-item5 a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.grid-item5 a:hover {
+    background-image: linear-gradient(red, black, green, white);
+    border: 3px solid black;
+    border-radius: 12px;
+}
+
+.grid-item6 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    padding-left: 10vw;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10vw;
+}
+
+
+/* ICONS CSS */
+
+.icons {
+    font-size: 50px;
+    gap: 12px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 12px;
+}

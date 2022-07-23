@@ -1,0 +1,36 @@
+/* FONT FAMILY  */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Pacifico', cursive;
+    overflow-x: hidden;
+}
+
+
+/* UNIVERSAL HEADING COLOR  */
+
+.rainbow-style {
+    background-image: linear-gradient(to right, red, orange, yellow, green, violet, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow-animation 80s linear infinite;
+}
+
+@keyframes rainbow-animation {
+    to {
+        background-position: 4500vh;
+    }
+}
+
+
+/* FOOTER FONT */
+
+footer {
+    font-family: 'Playfair Display', serif;
+}
